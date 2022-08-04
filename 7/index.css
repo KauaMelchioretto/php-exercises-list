@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    display: flex;
+}
+.numbers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+p {
+    border: 1px solid black;
+    padding: 1%;
+}

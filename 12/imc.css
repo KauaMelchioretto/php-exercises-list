@@ -1,0 +1,23 @@
+.imcApresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    text-align: center;
+    height: 80vh;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img//outrun-vaporwave-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}

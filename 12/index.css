@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img//outrun-vaporwave-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.inputs{
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+button {
+    color: black;
+    font-weight: bold;
+}
+
+.buttons{
+    margin: 10px;
+    color: black;
+}
+
+input{
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 15px 15px rgba(0,0,0,0.2);
+}
+button{
+    border-radius: 0px;
+    padding: 5px;
+}
+
+button:hover{
+    padding:10px;
+}
+
+input:hover{
+    background-color: rgb(100, 168, 231);
+    color: #fff;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
